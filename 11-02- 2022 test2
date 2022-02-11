@@ -1,0 +1,11 @@
+# hacker rank code submisssion and i passsed all test cases
+n=int(input())
+i=20
+if n%2==1:
+    print('Weird')
+elif n>=2 and n<=5:
+    print('Not Weird')
+elif n>=6 and n<=i:
+    print('Weird')
+elif n>i:
+    print('Not Weird')
