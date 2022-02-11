@@ -1,5 +1,8 @@
 
-#program to check the student is pass or fail and grade of the subjects 
+#program to check the student is pass or fail and grade of the subjects
+sno=int(input("Enter the student roll number "))
+sname=input("Enter the student name")
+sgroup = input("Enter the student group")
 s1=int(input("Enter the s1 marks : "))
 s2=int(input("Enter the s2 marks : "))
 s3=int(input("Enter the s3 marks : "))
@@ -9,19 +12,19 @@ s6=int(input("Enter the s6 marks : "))
 tot=s1+s2+s3+s4+s5+s6
 avg=tot/6
 if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>35 and s6>=35:
-    if avg>=91:
-         print(" o Grade")
-    elif avg>=81:
-         print(" A Grade")
-    elif avg >=71:
-         print(" B Grade")
-    elif avg >=60:
-         print(" C Grade")
-    elif avg>=50:
-         print(" D GRade")
-    elif avg >=40:
-         print("JUST PASS")
+            if avg>=91:
+                 print(" o Grade")
+            elif avg>=81:
+                 print(" A Grade")
+            elif avg >=71:
+                 print(" B Grade")
+            elif avg >=60:
+                 print(" C Grade")
+            elif avg>=50:
+                 print(" D GRade")
+            elif avg >=40:
+                 print("JUST PASS")
 else:
-    print("FAIL")
+            print("FAIL")
     
     
